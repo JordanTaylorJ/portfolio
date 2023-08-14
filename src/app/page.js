@@ -5,21 +5,20 @@ import Portfolio from "./(components)/portfolio/page";
 export default function Home() {
   return (
     <>
-    <main className="flex flex-col justify-between p-20 bg-brown">
+    <main className="flex flex-col justify-between p-10 bg-brown">
       <div>
-        <p className="left-0 justify-left text-lg">
+        <p className="left-0 justify-left text-6xl">
           hi - jordan here!
         </p>
       </div>
-
     </main>
-      <div className="left-0 top-40 bg-cream">
-      <img className='object-contain'  src='/beach.jpeg' alt="on the beach"/>
-      </div>  
-      <Main/>
-      <About/>
-      <Portfolio/>
-      </>
 
+    <div className="container left-0 my-10">
+      <img className='object-scale-down'  src='/res.jpeg' alt="on the beach"/>
+    </div>  
+    <Main/>
+    <About/>
+    <Portfolio/>
+    </>
   )
 }
