@@ -1,4 +1,4 @@
-import Projects from "../../(components)/projects/page";
+import Projects from "./projects";
 
 const Portfolio = () => {
 
