@@ -1,16 +1,13 @@
-//import React, {useState} from 'react';
 import Projects from "../../(components)/projects/page";
 
 const Portfolio = () => {
 
-    //const [isClicked, setIsClicked] = useState();
 
     return(
         <main>
-        <h1>Portfolio</h1>
-        <div className="p-12 columns-3">
+        <div className="p-12 columns-3 text-3xl justify-center">
             <div>
-                <button isClicked='true'>Projects</button>
+                <button>Projects</button>
             </div>
             <div>
                 <button>Skills</button>
