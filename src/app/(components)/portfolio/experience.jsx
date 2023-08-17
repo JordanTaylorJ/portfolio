@@ -29,7 +29,7 @@ const Experience = () => {
                 <td className='text-right'>Burlingame, CA</td>
             </tr>
             <tr>
-                <td>Colorado State University - Pueblo</td>
+                <td>Student - Colorado State University - Pueblo</td>
                 <td className='text-right'>05/2015</td>
                 <td className='text-right'>Pueblo, CO</td>
             </tr>

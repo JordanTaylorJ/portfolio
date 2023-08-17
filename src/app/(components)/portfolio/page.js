@@ -9,25 +9,26 @@ const Portfolio = () => {
     const [active, setActive] = useState('')
 
     return(
-        <main id='Portfolio' className='m-16 p-6 bg-greenblue'>
-        <div className="text-2xl flex place-content-center bg-greenblue ">
-            <button className='p-4 bg-sage rounded-tr-lg'>Projects</button>
-            <button className='p-4 border-2 border-sage rounded-tr-lg' >Skills</button>
-            <button className='p-4 border-2 border-sage rounded-tr-lg'>Education & Experience</button>
+        <main id='Portfolio' className='m-16 p-6'>
+
+        <div className="m-16 p-6 bg-greenblue">
+            <h2 className="text-center text-2xl block px-4 text-white">Projects</h2>
+            <Projects/> 
         </div>
-        <Projects/> 
-  
-        <Skills/>
+        <div>
+            <h2 className="text-center text-2xl block px-4 text-brown">Skills</h2>
+            <Skills/>
+        </div>
+        <div className='bg-sage'>
+        <h2 className="text-center text-2xl block py-2 px-4 text-white">Education & Experience</h2>
         <Experience/>
+        </div>
         </main>
     )
 }
 
 export default Portfolio;
 
-/*
-
-        */
 
 
 /*
@@ -55,4 +56,27 @@ export default Portfolio;
             <Experience/> 
             </div>
         </div>
+*/
+
+/*
+        <div className="text-2xl flex place-content-center bg-greenblue ">
+            <button className='p-4 bg-sage rounded-tr-lg'>Projects</button>
+            <button className='p-4 border-2 border-sage rounded-tr-lg' >Skills</button>
+            <button className='p-4 border-2 border-sage rounded-tr-lg'>Education & Experience</button>
+        </div>
+*/
+
+
+/*
+<ul class="flex">
+<li class="flex-1 mr-2">
+    <a class="text-center text-2xl block py-2 px-4 hover:bg-gray-200 text-white" href="/">Projects</a>
+</li>
+<li class="flex-1 mr-2">
+    <a class="text-center text-2xl block py-2 px-4 hover:bg-gray-200 text-white"> Skills</a>
+</li>
+<li class="text-center flex-1">
+    <a class="text-center text-2xl block py-2 px-4 hover:bg-gray-200 text-white">Education & Experience</a>
+</li>
+</ul>
 */
