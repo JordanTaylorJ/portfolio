@@ -4,12 +4,13 @@ module.exports = {
     './src/pages/**/*.{js,ts,jsx,tsx,mdx}',
     './src/components/**/*.{js,ts,jsx,tsx,mdx}',
     './src/app/**/*.{js,ts,jsx,tsx,mdx}',
+    "./node_modules/flowbite/**/*.js",
   ],
   theme: {
     colors: {
       'cream': '#edeec0',
       'brown': '#433e0e',
-      'green': '#7c9082',
+      'greenblue': '#7c9082',
       'sage': '#a7a284',
       'musk': '#d0c88e'  
     },
@@ -21,5 +22,7 @@ module.exports = {
       },
     },
   },
-  plugins: [],
+  plugins: [
+    require('flowbite/plugin')
+  ],
 }
