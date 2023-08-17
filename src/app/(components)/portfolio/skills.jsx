@@ -11,7 +11,7 @@ const Skills = () => {
         
         <ul className=' p-8 bg-white columns-4 text-lg text-brown'>
             {list.map(item => {
-                return(<li>{item}</li>)
+                return(<li key={item}>{item}</li>)
             })}
         </ul>
         </div>

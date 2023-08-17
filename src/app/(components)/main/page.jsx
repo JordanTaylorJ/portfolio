@@ -2,7 +2,7 @@ const Main = () => {
 
     return(
         <>
-        <main className="flex flex-col justify-between p-7 bg-brown">
+        <main id='Home' className="flex flex-col justify-between p-7 bg-brown">
         <div>
             <p className="left-0 justify-left text-6xl text-sage">
             hi - jordan here!

@@ -1,7 +1,7 @@
 
 export default function About() {
     return(
-    <div className="container flex min-h-screen p-24 gap-24 column-2" >
+    <div id='About' className="container flex min-h-screen p-24 gap-24 column-2" >
         <img className='object-contain w-80 ' src='/portrait.jpeg' alt='portrait' />
         <div className='bg-sage px-10 py-16 self-center' >
             <h1 className='text-4xl pb-10 text-brown' >hey there, nice to meet you <br></br> - i'm jordan.</h1>
