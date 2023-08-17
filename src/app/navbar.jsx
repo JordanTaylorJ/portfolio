@@ -21,7 +21,9 @@ const Navbar = () => {
                 <button value='About' onClick={(e) => handleClickScroll(e)}>About</button>
                 <button value='Portfolio' onClick={(e) => handleClickScroll(e)}>Portfolio</button>
                 <button value='Contact' onClick={(e) => handleClickScroll(e)}>Contact</button>
-                <button>Resume</button>
+                <a href='./resume_jordanjoseph.pdf' download='resume_jordanjoseph'>
+                    <button>Resume</button>
+                </a>
             </div>
         </div>
         </nav>
