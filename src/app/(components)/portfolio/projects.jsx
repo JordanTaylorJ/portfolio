@@ -42,10 +42,10 @@ const Projects = () => {
         <div className='columns-3 m-12'>
             {projects.map(project => {
                 return(
-                <div className="max-w-sm overflow-hidden shadow-lg">
+                <div key={project.name} className="max-w-sm overflow-hidden shadow-lg">
                     <img className="w-full" src={project.images} alt="project image"/>
                     
-                    <div className="px-6 py-4">
+                    <div className="px-6 py-4 bg-white">
                         <div className="font-bold text-xl mb-2 column-2 text-greenblue">{project.name}</div>
                         <a href={project.github}>
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
@@ -55,7 +55,7 @@ const Projects = () => {
 
                         {project.features.map(feature => {
                             return(
-                                <ul className="text-brown text-base list-outside list-disc">
+                                <ul key={feature} className="text-brown text-base list-outside list-disc">
                                 <li>{feature}</li>
                                 </ul>
                             )

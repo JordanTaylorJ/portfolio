@@ -9,21 +9,14 @@ const Portfolio = () => {
     const [active, setActive] = useState('')
 
     return(
-        <main>
-        <div className="m-14 p-12 columns-3 text-2xl justify-center bg-greenblue">
-            <div>
-                <button>Projects</button>
-            </div>
-            <div>
-                <button>Skills</button>
-            </div>
-            <div>
-                <button>Education & Experience</button>
-            </div>
+        <main className='m-16 p-6 bg-greenblue'>
+        <div className="text-2xl flex place-content-center bg-greenblue ">
+            <button className='p-4 bg-sage rounded-tr-lg'>Projects</button>
+            <button className='p-4 border-2 border-sage rounded-tr-lg' >Skills</button>
+            <button className='p-4 border-2 border-sage rounded-tr-lg'>Education & Experience</button>
         </div>
         <Projects/> 
-        <Skills/>
-        <Experience/>
+  
 
         </main>
     )
