@@ -9,15 +9,16 @@ const Portfolio = () => {
     const [active, setActive] = useState('')
 
     return(
-        <main id='Portfolio'>
+        <main >
+        <div className='flex justify-end m-16 p-6'>
+            <img className='object-scale-down w-96' src='./sunglasses.jpg' alt='sunglasses'/>
+        </div>
         <Projects/> 
-        
-            <Skills/>
-        
         <div className='m-16 p-6'>
             <img className='object-scale-down w-2/5' src='./hiking.jpeg' alt='hiking'/>
         </div>
-            <Experience/>
+        <Skills/>
+        <Experience/>
         </main>
     )
 }
