@@ -14,5 +14,3 @@ const Images = () => {
 }
 
 export default Images;
-
-//<img className='object-scale-down w-full' src='./beach.jpeg' alt='hiking'/>

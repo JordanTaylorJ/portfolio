@@ -31,5 +31,3 @@ const Navbar = () => {
 }
 
 export default Navbar;
-
-//<button value='Contact' onClick={(e) => handleClickScroll(e)}>Contact</button>
