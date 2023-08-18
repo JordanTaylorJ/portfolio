@@ -38,7 +38,8 @@ const Projects = () => {
     ]
 
     return(
-        <>
+        <div className="m-16 p-6 bg-greenblue">
+            <h2 className="text-center text-2xl block px-4 text-white">Projects</h2>
         <div className='columns-3 m-12'>
             {projects.map(project => {
                 return(
@@ -46,12 +47,14 @@ const Projects = () => {
                     <img className="w-full" src={project.images} alt="project image"/>
                     
                     <div className="px-6 py-4 bg-white">
+                        <div className='columns-2 flex flex-wrap justify-between'>
                         <div className="font-bold text-xl mb-2 column-2 text-greenblue">{project.name}</div>
                         <a href={project.github}>
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
                             <path strokeLinecap="round" strokeLinejoin="round" d="M13.19 8.688a4.5 4.5 0 011.242 7.244l-4.5 4.5a4.5 4.5 0 01-6.364-6.364l1.757-1.757m13.35-.622l1.757-1.757a4.5 4.5 0 00-6.364-6.364l-4.5 4.5a4.5 4.5 0 001.242 7.244" />
                         </svg>
                         </a>
+                        </div>
 
                         {project.features.map(feature => {
                             return(
@@ -65,8 +68,7 @@ const Projects = () => {
                 )
             })}
         </div>
-    
-      </>
+        </div>
     )
 }
 

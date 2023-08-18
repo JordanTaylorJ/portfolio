@@ -9,20 +9,22 @@ const Portfolio = () => {
     const [active, setActive] = useState('')
 
     return(
-        <main id='Portfolio' className='m-16 p-6'>
+        <main id='Portfolio'>
 
-        <div className="m-16 p-6 bg-greenblue">
-            <h2 className="text-center text-2xl block px-4 text-white">Projects</h2>
+        
             <Projects/> 
-        </div>
-        <div>
+        
+        <div className='m-16 p-6'>
             <h2 className="text-center text-2xl block px-4 text-brown">Skills</h2>
             <Skills/>
+            
         </div>
-        <div className='bg-sage'>
-        <h2 className="text-center text-2xl block py-2 px-4 text-white">Education & Experience</h2>
-        <Experience/>
+        <div className='m-16 p-6'>
+            <img className='object-scale-down w-2/5' src='./hiking.jpeg' alt='hiking'/>
         </div>
+        
+            <Experience/>
+        
         </main>
     )
 }

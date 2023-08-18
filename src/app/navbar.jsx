@@ -20,7 +20,7 @@ const Navbar = () => {
                 <button value='Home' onClick={(e) => handleClickScroll(e)} >Home</button>
                 <button value='About' onClick={(e) => handleClickScroll(e)}>About</button>
                 <button value='Portfolio' onClick={(e) => handleClickScroll(e)}>Portfolio</button>
-                <button value='Contact' onClick={(e) => handleClickScroll(e)}>Contact</button>
+                
                 <a href='./resume_jordanjoseph.pdf' download='resume_jordanjoseph'>
                     <button>Resume</button>
                 </a>
@@ -31,3 +31,5 @@ const Navbar = () => {
 }
 
 export default Navbar;
+
+//<button value='Contact' onClick={(e) => handleClickScroll(e)}>Contact</button>
