@@ -10,21 +10,14 @@ const Portfolio = () => {
 
     return(
         <main id='Portfolio'>
-
+        <Projects/> 
         
-            <Projects/> 
-        
-        <div className='m-16 p-6'>
-            <h2 className="text-center text-2xl block px-4 text-brown">Skills</h2>
             <Skills/>
-            
-        </div>
+        
         <div className='m-16 p-6'>
             <img className='object-scale-down w-2/5' src='./hiking.jpeg' alt='hiking'/>
         </div>
-        
             <Experience/>
-        
         </main>
     )
 }

@@ -6,7 +6,8 @@ const Skills = () => {
     ]
     return(
         <>
-        
+        <div className='m-16 p-6'>
+            <h2 className="text-center text-2xl block px-4 text-brown">Skills</h2>
         <div className=' flex justify-center m-10'>
         
         <ul className=' p-8 bg-white columns-4 text-lg text-brown'>
@@ -14,6 +15,7 @@ const Skills = () => {
                 return(<li key={item}>{item}</li>)
             })}
         </ul>
+        </div>
         </div>
         </>
     )
