@@ -29,7 +29,8 @@ const Projects = () => {
             name: 'Portfolio',
             description: 'Personal website to showcase projects.',
             features: [
-                'application with Next.js React and Tailwind CSS',
+                'Single page application with JS React frontend',
+                'Next.js and Tailwind CSS frameworks',
                 'Features ....'
             ],
             github: 'https://github.com/JordanTaylorJ/portfolio',

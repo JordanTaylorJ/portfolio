@@ -1,12 +1,8 @@
-'use client'
-import {useState} from 'react';
 import Projects from "./projects";
 import Skills from "./skills";
 import Experience from "./experience";
 
 const Portfolio = () => {
-
-    const [active, setActive] = useState('')
 
     return(
         <main >
