@@ -1,6 +1,6 @@
-import Main from "./components/(main)/page";
-import About from "./components/(about)/page";
-import Portfolio from "./components/(portfolio)/page";
+import Main from "./(components)/main/page";
+import About from "./(components)/about/page";
+import Portfolio from "./(components)/portfolio/page";
 import Images from "./images";
 import Footer from "./footer";
 
