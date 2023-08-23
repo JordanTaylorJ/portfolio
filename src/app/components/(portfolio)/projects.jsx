@@ -1,3 +1,7 @@
+'use client'
+import {useState} from 'react';
+import Detail from './detail';
+
 const Projects = () => {
 
     const projects = [
@@ -38,7 +42,20 @@ const Projects = () => {
         }
     ]
 
+    const [show, setShow] = useState(false)
+    const [selected, setSelected] = useState(null);
+
+    const handleOpen = (e) => {
+        console.log(e.target.value, 'button')
+        const proj = projects.find(project => project.name === e.target.value)
+        setShow(true)
+        setSelected(proj)
+    }
+
+    console.log('selected project', selected)
+
     return(
+        <>
         <div id='Portfolio' className="m-16 p-6 bg-greenblue">
             <h2 className="text-center text-2xl block px-4 text-white">Projects</h2>
         <div className='columns-3 m-12'>
@@ -56,20 +73,18 @@ const Projects = () => {
                         </svg>
                         </a>
                         </div>
-
-                        {project.features.map(feature => {
-                            return(
-                                <ul key={feature} className="text-brown text-base list-outside list-disc">
-                                <li>{feature}</li>
-                                </ul>
-                            )
-                        })}                    
+                        <p>{project.description}</p>
+                        <button onClick={(e) => handleOpen(e)} value={project.name} className='text-brown hover:text-white hover:bg-sage p-1 hover:rounded'>details</button>
+                    
+                     
                     </div>
                 </div>
                 )
             })}
         </div>
         </div>
+        <Detail isVisible={show} onClose={() => setShow(false)} thisProject={selected}  />
+        </>
     )
 }
 

@@ -1,11 +1,11 @@
 const Skills = () => {
 
     const list = [
-        'JavaScript', 'Rails', 'Ruby on Rails', 'React', 'CSS', 'HTML', 'Tailwind CSS', 'Material UI', 'Next.js','JSON', 'SQL', 'PostgreSQL', 'Postman', 
+        'JavaScript', 'React', 'Rails', 'Ruby on Rails', 'Python', 'CSS', 'HTML', 'Tailwind CSS', 'Material UI', 'Next.js','JSON', 'SQL', 'PostgreSQL', 'Postman', 
         'REST API', 'MVC Architecture', 'Wireframes', 'Excel', 'Visio', 'Tableau', 
     ]
     return(
-        <>
+        
         <div className='m-10 p-6'>
         <h2 className="text-center text-2xl block px-4 text-brown">Skills</h2>
         <div className=' flex justify-center m-10 drop-shadow-lg'>
@@ -16,7 +16,7 @@ const Skills = () => {
             </ul>
         </div>
         </div>
-        </>
+        
     )
 }
 
