@@ -55,7 +55,7 @@ const Projects = () => {
     }
 
     return(
-        <div id='Portfolio' className='pt-4'>
+        <div id='Portfolio' className='pt-3'>
         <div className="m-16 p-6 bg-greenblue">
             <h2 className="text-center text-3xl px-4 text-white">Projects</h2>
         <div className='columns-3 m-12'>
