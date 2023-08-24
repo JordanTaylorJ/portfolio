@@ -5,7 +5,7 @@ import Experience from "./experience";
 const Portfolio = () => {
 
     return(
-        <main >
+        <main>
         <div className='flex justify-end m-16 p-6'>
             <img className='object-scale-down w-96' src='./sunglasses.jpg' alt='sunglasses'/>
         </div>

@@ -6,7 +6,7 @@ const Projects = () => {
 
     const projects = [
         {
-            name: 'Ski Resorts', 
+            title: 'Ski Resorts', 
             description: 'Organize your ski trips with this interactive map featuring resort details, in-app bookmarking tools, and user reviews.',
             features: [
                 'Developed RESTful full stack application deployed through Render ', 
@@ -16,10 +16,10 @@ const Projects = () => {
                 'Implemented useContext to globally manage state'
             ],
             github:'https://github.com/JordanTaylorJ/ski_maps',
-            images: './ski_resort.jpg'
+            images: ['./ski_resort.jpg', './ski_ERD.jpg']
         }, 
         {
-            name: 'Book Club',
+            title: 'Book Club',
             description: 'A community space to share and discuss favorite books.',
             features: [
                 'Full stack application with JS React frontend, MUI style components, and Rails API backend',
@@ -27,10 +27,10 @@ const Projects = () => {
                 'Demonstrates MVC architecture and the use of Active Record for Object-Relational Mapping'
             ],
             github: 'https://github.com/JordanTaylorJ/book_club',
-            images: './book_club.png'
+            images: ['./book_club.png']
         }, 
         {
-            name: 'Portfolio',
+            title: 'Portfolio',
             description: 'Personal website to showcase projects.',
             features: [
                 'Single page application with JS React frontend',
@@ -38,7 +38,7 @@ const Projects = () => {
                 'Features ....'
             ],
             github: 'https://github.com/JordanTaylorJ/portfolio',
-            images: './ski_ERD.jpg'
+            images: ['./sky.jpeg']
         }
     ]
 
@@ -46,27 +46,24 @@ const Projects = () => {
     const [selected, setSelected] = useState(null);
 
     const handleOpen = (e) => {
-        console.log(e.target.value, 'button')
-        const proj = projects.find(project => project.name === e.target.value)
+        const proj = projects.find(project => project.title === e.target.value)
         setShow(true)
         setSelected(proj)
     }
 
-    console.log('selected project', selected)
-
     return(
-        <>
-        <div id='Portfolio' className="m-16 p-6 bg-greenblue">
-            <h2 className="text-center text-2xl block px-4 text-white">Projects</h2>
+        <div id='Portfolio' className='pt-6'>
+        <div className="m-16 p-6 bg-greenblue">
+            <h2 className="text-center text-3xl block px-4 text-white">Projects</h2>
         <div className='columns-3 m-12'>
             {projects.map(project => {
                 return(
-                <div key={project.name} className="max-w-sm overflow-hidden shadow-lg">
-                    <img className="w-full" src={project.images} alt="project image"/>
+                <div key={project.title} className="max-w-sm overflow-hidden shadow-lg">
+                    <img className="w-full" src={project.images[0]} alt="project image"/>
                     
                     <div className="px-6 py-4 bg-white">
                         <div className='columns-2 flex flex-wrap justify-between'>
-                        <div className="font-bold text-xl mb-2 column-2 text-greenblue">{project.name}</div>
+                        <div className="font-bold text-xl mb-2 column-2 text-greenblue">{project.title}</div>
                         <a href={project.github}>
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
                             <path strokeLinecap="round" strokeLinejoin="round" d="M13.19 8.688a4.5 4.5 0 011.242 7.244l-4.5 4.5a4.5 4.5 0 01-6.364-6.364l1.757-1.757m13.35-.622l1.757-1.757a4.5 4.5 0 00-6.364-6.364l-4.5 4.5a4.5 4.5 0 001.242 7.244" />
@@ -74,8 +71,9 @@ const Projects = () => {
                         </a>
                         </div>
                         <p>{project.description}</p>
-                        <button onClick={(e) => handleOpen(e)} value={project.name} className='text-brown hover:text-white hover:bg-sage p-1 hover:rounded'>details</button>
-                    
+                        <div className='flex flex-col justify-right'>
+                        <button onClick={(e) => handleOpen(e)} value={project.title} className='text-brown hover:text-white hover:bg-sage p-1 hover:rounded place-self-end'>details</button>
+                        </div>
                      
                     </div>
                 </div>
@@ -83,8 +81,8 @@ const Projects = () => {
             })}
         </div>
         </div>
-        <Detail isVisible={show} onClose={() => setShow(false)} thisProject={selected}  />
-        </>
+        <Detail isVisible={show} onClose={() => setShow(false)} thisProject={selected} />
+        </div>
     )
 }
 
