@@ -16,7 +16,8 @@ const Projects = () => {
                 'Implemented useContext to globally manage state'
             ],
             github:'https://github.com/JordanTaylorJ/ski_maps',
-            images: ['./ski_resort.jpg', './ski_ERD.jpg']
+            images: ['./ski_resort.jpg', './ski_ERD.jpg'],
+            tags: ['React', 'Rails', 'Mapbox']
         }, 
         {
             title: 'Book Club',
@@ -27,7 +28,8 @@ const Projects = () => {
                 'Demonstrates MVC architecture and the use of Active Record for Object-Relational Mapping'
             ],
             github: 'https://github.com/JordanTaylorJ/book_club',
-            images: ['./book_club.png']
+            images: ['./book_club.png'],
+            tags: ['React', 'Rails', 'MUI']
         }, 
         {
             title: 'Portfolio',
@@ -38,7 +40,8 @@ const Projects = () => {
                 'Tailwind CSS design/style framework'
             ],
             github: 'https://github.com/JordanTaylorJ/portfolio',
-            images: ['./sky.jpeg']
+            images: ['./sky.jpeg'],
+            tags: ['React', 'Next.js', 'Tailwind CSS']
         }
     ]
 
@@ -52,7 +55,7 @@ const Projects = () => {
     }
 
     return(
-        <div id='Portfolio' className='pt-6'>
+        <div id='Portfolio' className='pt-4'>
         <div className="m-16 p-6 bg-greenblue">
             <h2 className="text-center text-3xl px-4 text-white">Projects</h2>
         <div className='columns-3 m-12'>
@@ -70,9 +73,14 @@ const Projects = () => {
                             </svg>
                         </a>
                         </div>
-                        <p>{project.description}</p>
+                        <p className='text-brown'>{project.description}</p>
+                        {project.tags.map(tag => {
+                            return(
+                                <span key={tag} className="text-xs font-semibold text-greenblue mr-2 mb-2">#{tag}</span>
+                            )}
+                        )}
                         <div className='flex flex-col justify-right'>
-                        <button onClick={(e) => handleOpen(e)} value={project.title} className='text-brown hover:text-white hover:bg-sage p-1 hover:rounded place-self-end'>details</button>
+                            <button onClick={(e) => handleOpen(e)} value={project.title} className='text-brown hover:text-white hover:bg-sage p-1 hover:rounded place-self-end'>details</button>
                         </div>
                     </div>
                 </div>
