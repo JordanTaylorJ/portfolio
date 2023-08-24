@@ -34,8 +34,8 @@ const Projects = () => {
             description: 'Personal website to showcase projects.',
             features: [
                 'Single page application with JS React frontend',
-                'Next.js and Tailwind CSS frameworks',
-                'Features ....'
+                'Next.js framework using App Router file structure',
+                'Tailwind CSS design/style framework'
             ],
             github: 'https://github.com/JordanTaylorJ/portfolio',
             images: ['./sky.jpeg']
@@ -65,9 +65,9 @@ const Projects = () => {
                         <div className='columns-2 flex flex-wrap justify-between'>
                         <div className="font-bold text-xl mb-2 column-2 text-greenblue">{project.title}</div>
                         <a href={project.github}>
-                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
-                            <path strokeLinecap="round" strokeLinejoin="round" d="M13.19 8.688a4.5 4.5 0 011.242 7.244l-4.5 4.5a4.5 4.5 0 01-6.364-6.364l1.757-1.757m13.35-.622l1.757-1.757a4.5 4.5 0 00-6.364-6.364l-4.5 4.5a4.5 4.5 0 001.242 7.244" />
-                        </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
+                                <path strokeLinecap="round" strokeLinejoin="round" d="M13.19 8.688a4.5 4.5 0 011.242 7.244l-4.5 4.5a4.5 4.5 0 01-6.364-6.364l1.757-1.757m13.35-.622l1.757-1.757a4.5 4.5 0 00-6.364-6.364l-4.5 4.5a4.5 4.5 0 001.242 7.244" />
+                            </svg>
                         </a>
                         </div>
                         <p>{project.description}</p>
