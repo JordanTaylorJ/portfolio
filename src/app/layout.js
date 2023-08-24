@@ -1,12 +1,12 @@
 import './globals.css'
 import { Inter } from 'next/font/google'
-import Navbar from './navbar'
+import Navbar from './components/navbar'
 
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
   title: 'Jordan Joseph',
-  description: 'personal website',
+  description: 'portfolio website',
 }
 
 export default function RootLayout({ children }) {

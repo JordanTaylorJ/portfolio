@@ -54,7 +54,7 @@ const Projects = () => {
     return(
         <div id='Portfolio' className='pt-6'>
         <div className="m-16 p-6 bg-greenblue">
-            <h2 className="text-center text-3xl block px-4 text-white">Projects</h2>
+            <h2 className="text-center text-3xl px-4 text-white">Projects</h2>
         <div className='columns-3 m-12'>
             {projects.map(project => {
                 return(
