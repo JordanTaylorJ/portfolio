@@ -1,6 +1,7 @@
 
 export default function About() {
     return(
+    <>
     <div id='About' className="container flex min-h-screen p-24 gap-24 column-2" >
         <img className='object-contain w-80 ' src='/portrait.jpeg' alt='portrait' />
         <div className='bg-sage px-10 py-16 self-center' >
@@ -10,5 +11,12 @@ export default function About() {
             </p>
         </div>
     </div>
+    <div className='container min-h-screen relative'>
+        <div className='absolute bg-brown bg-opacity-75 top-28 left-48 p-60'>O</div>
+        <img className='absolute top-80 right-24' src='./art.jpeg' width='350'/>
+        <img className='absolute top-44 right-64 shadow-lg' src='./beach.jpeg' width='525'/>
+        <img className='absolute top-12 left-24' src='./shav.jpg' width='375'/>
+    </div>
+    </>
     )
 }

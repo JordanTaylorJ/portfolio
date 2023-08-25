@@ -1,6 +1,10 @@
 const Footer = () => {
     return(
         <>
+         <div className='flex justify-end bg-brown'>
+            <img className='object-scale-down w-60' src='./mountain.jpeg' alt='hikingVista'/>
+            <img className='object-scale-down w-60' src='./plane.jpeg' alt='airplane'/>
+        </div>
         <div className="flex justify-center mt-8 space-x-6">
             <a href="https://github.com/JordanTaylorJ/" className="text-brown hover:text-greenblue">
                 <span className="sr-only">GitHub</span>

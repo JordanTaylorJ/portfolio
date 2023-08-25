@@ -1,7 +1,7 @@
 import Main from "./components/main";
 import About from "./components/about";
 import Portfolio from "./components/portfolio/portfolio";
-import Images from "./components/images";
+import Contact from "./components/contact";
 import Footer from "./components/footer";
 import Navbar from "./components/navbar";
 
@@ -12,7 +12,7 @@ export default function Home() {
     <Main/>
     <About/>
     <Portfolio/>
-    <Images/>
+    <Contact/>
     <Footer/>
     </div>
   )

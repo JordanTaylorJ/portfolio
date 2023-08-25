@@ -37,7 +37,7 @@ const Projects = () => {
             features: [
                 'Single page application with JS React frontend',
                 'Next.js framework using App Router file structure',
-                'Tailwind CSS design/style framework'
+                'Tailwind CSS framework'
             ],
             github: 'https://github.com/JordanTaylorJ/portfolio',
             images: ['./sky.jpeg'],

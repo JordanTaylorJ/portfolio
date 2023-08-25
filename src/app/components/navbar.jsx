@@ -12,7 +12,7 @@ const Navbar = () => {
     }
 
     return(
-        <nav className='container fixed'>
+        <nav className='container fixed z-40'>
         <div className="max-w-screen-xl flex flex-wrap justify-between mx-auto p-4 text-lg columns-2" >
             <div> 
             </div>

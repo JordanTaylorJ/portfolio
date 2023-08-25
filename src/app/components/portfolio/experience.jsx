@@ -2,7 +2,6 @@ const Experience = () => {
     return(
         <div className='my-10 mx-0 bg-sage'>
         <h2 className="text-center text-3xl py-2 px-4 text-white">Education & Experience</h2>
-        
         <div className='flex justify-center text-white'>
         <table className="table-auto border-separate border-spacing-x-8 border-spacing-y-5">
         <tbody>
@@ -32,7 +31,7 @@ const Experience = () => {
                 <td className='text-right'>Burlingame, CA</td>
             </tr>
             <tr>
-                <td>Student - Colorado State University - Pueblo</td>
+                <td>Student - Colorado State University</td>
                 <td className='text-right text-sm'>05/2015</td>
                 <td className='text-right'>Pueblo, CO</td>
             </tr>
