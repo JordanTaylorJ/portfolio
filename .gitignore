@@ -34,7 +34,3 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 
-# attached images/docs
-/public/resume_jordanjoseph.pdf 
-*.jpg
-*.jpeg
