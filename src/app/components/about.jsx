@@ -12,7 +12,7 @@ export default function About() {
         </div>
     </div>
     <div className='container min-h-screen relative'>
-        <div className='absolute bg-brown bg-opacity-75 top-28 left-48 p-60'>O</div>
+        <div className='absolute bg-brown bg-opacity-75 top-28 left-48 p-60 text-brown'>O</div>
         <img className='absolute top-80 right-24' src='./art.jpeg' width='350'/>
         <img className='absolute top-44 right-64 shadow-lg' src='./beach.jpeg' width='525'/>
         <img className='absolute top-12 left-24' src='./shav.jpg' width='375'/>

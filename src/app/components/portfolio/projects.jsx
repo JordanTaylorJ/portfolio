@@ -35,9 +35,9 @@ const Projects = () => {
             title: 'Portfolio',
             description: 'Personal website to showcase projects.',
             features: [
-                'Single page application with JS React frontend',
-                'Next.js framework using App Router file structure',
-                'Tailwind CSS framework'
+                'Single-page application with JS React frontend deployed through Vercel',
+                'Created with Next.js, applied App Router and layouts',
+                'Styled using Tailwind CSS framework'
             ],
             github: 'https://github.com/JordanTaylorJ/portfolio',
             images: ['./sky.jpeg'],
