@@ -15,8 +15,8 @@ const Navbar = () => {
     }
 
     return(
-        <nav className='container fixed z-40'>
-        <div className='flex flex-wrap justify-end p-4 text-lg' >
+        <nav className='flex flex-wrap justify-end p-4 text-lg container fixed z-40'>
+        
             
             <div className='hidden w-full md:block md:w-auto space-x-10' >
                 <button className='hover:text-sage' value='Home' onClick={(e) => handleClickScroll(e)} >Home</button>
@@ -26,14 +26,16 @@ const Navbar = () => {
                     <button className='hover:text-sage'>Resume</button>
                 </a>
             </div>
-
-            <button onClick={() => setIsOpen(!isOpen)} type="button" className="place-self-end p-2 w-10 h-10 hover:text-sage md:hidden">
+        
+            <div className=''>
+            <button onClick={() => setIsOpen(!isOpen)} type="button" className="block justify-right p-2 w-10 h-10 hover:text-sage md:hidden">
                 <svg className="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
                     <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M1 1h15M1 7h15M1 13h15"/>
                 </svg>
             </button>
             {isOpen ? <MobileMenu handleClickScroll={handleClickScroll}/> : <></> }
-        </div>
+            </div>
+        
         </nav>
     )
 }

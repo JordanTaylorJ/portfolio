@@ -37,7 +37,8 @@ const Projects = () => {
             features: [
                 'Single-page application with JS React frontend deployed through Vercel',
                 'Created with Next.js, applied App Router and layouts',
-                'Styled using Tailwind CSS framework'
+                'Styled using Tailwind CSS framework',
+                'Mobile-first responsive design'
             ],
             github: 'https://github.com/JordanTaylorJ/portfolio',
             images: ['./sky.jpeg'],
