@@ -27,7 +27,7 @@ const Navbar = () => {
                 </a>
             </div>
 
-            <button onClick={() => setIsOpen(!isOpen)} type="button" className="flex justify-end p-2 w-10 h-10 hover:text-sage md:hidden">
+            <button onClick={() => setIsOpen(!isOpen)} type="button" className="place-self-end p-2 w-10 h-10 hover:text-sage md:hidden">
                 <svg className="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
                     <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M1 1h15M1 7h15M1 13h15"/>
                 </svg>

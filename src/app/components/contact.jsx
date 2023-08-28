@@ -11,7 +11,7 @@ const Contact = () => {
                     <a href='https://www.linkedin.com/in/jordantjoseph/' className='text-brown hover:text-white hover:bg-sage p-1 hover:rounded place-self-end'>Let's Connect</a>
                 </div>
             </div>
-            <img className='object-contain w-80 ' src='/sunglasses.jpg' alt='sunglasses' />
+            <img className='object-contain w-80 justify-self-center' src='/sunglasses.jpg' alt='sunglasses' />
         </div>
     )
 }
