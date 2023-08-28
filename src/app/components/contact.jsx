@@ -1,6 +1,6 @@
 const Contact = () => {
     return(
-        <div className="grid md:grid-cols-3 items-center min-h-screen p-24 gap-12 lg:gap-24" >
+        <div className="grid md:grid-cols-3 items-center min-h-screen p-6 md:p-24 gap-12 lg:gap-24" >
             <div className='md:col-span-2 bg-greenblue px-10 py-14 self-center' >
                 <h1 className='text-2xl md:text-3xl pb-8 text-white pl-5' >Let's Work Together!</h1>
                 <p className='text-center text-sm md:text-base'>
