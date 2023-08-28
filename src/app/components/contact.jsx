@@ -1,8 +1,8 @@
 const Contact = () => {
     return(
-        <div className="grid md:grid-cols-2 min-h-screen p-24 gap-12 items-center" >
-            <div className='bg-greenblue px-10 py-14 self-center' >
-                <h1 className='text-3xl pb-8 text-white pl-5' >Let's Work Together!</h1>
+        <div className="grid md:grid-cols-3 items-center min-h-screen p-24 gap-12 lg:gap-24" >
+            <div className='md:col-span-2 bg-greenblue px-10 py-14 self-center' >
+                <h1 className='text-2xl md:text-3xl pb-8 text-white pl-5' >Let's Work Together!</h1>
                 <p className='text-center'>
                 I'm in search of a full-stack, frontend, or backend programming opportunity. I'm open to collaborative projects and excited to hear from you!
                 </p>
