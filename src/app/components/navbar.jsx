@@ -14,8 +14,6 @@ const Navbar = () => {
         }
     }
 
-    console.log('isopen', isOpen)
-
     return(
         <nav className='container fixed z-40'>
         <div className='flex flex-wrap justify-end p-4 text-lg' >

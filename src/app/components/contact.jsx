@@ -1,6 +1,6 @@
 const Contact = () => {
     return(
-        <div className="container flex min-h-screen p-24 gap-24 column-2" >
+        <div className="grid md:grid-cols-2 min-h-screen p-24 gap-12 items-center" >
             <div className='bg-greenblue px-10 py-14 self-center' >
                 <h1 className='text-3xl pb-8 text-white pl-5' >Let's Work Together!</h1>
                 <p className='text-center'>

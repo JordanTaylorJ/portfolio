@@ -7,9 +7,9 @@ const Skills = () => {
 
     return(
         <div className='m-10 p-6'>
-        <h2 className="text-center text-3xl px-4 text-brown">Skills</h2>
+        <h2 className="text-center text-2xl md:text-3xl px-4 text-brown">Skills</h2>
         <div className='flex justify-center m-10'>
-            <ul className='p-8 bg-white shadow-lg columns-4 text-lg text-brown'>
+            <ul className=' grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 p-8 bg-white shadow-lg text-lg text-brown'>
                 {list.map(item => {
                     return(<li key={item}>{item}</li>)
                 })}

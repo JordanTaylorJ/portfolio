@@ -2,8 +2,8 @@
 export default function About() {
     return(
     <>
-    <div id='About' className="grid min-h-screen p-24 gap-12 md:gap-5 md:grid-cols-2 md:items-center" >
-        <img className='object-contain w-80 ' src='/portrait.jpeg' alt='portrait' />
+    <div id='About' className="grid min-h-screen p-24 gap-12 md:grid-cols-2 content-center" >
+        <img className='object-contain w-80' src='/portrait.jpeg' alt='portrait' />
         <div className='bg-sage px-10 py-16 self-center' >
             <h1 className='text-2xl md:text-4xl pb-10 text-brown' >hey there, nice to meet you <br></br> - i'm jordan.</h1>
             <p>

@@ -57,15 +57,15 @@ const Projects = () => {
     return(
         <div id='Portfolio' className='pt-3'>
         <div className="m-16 p-6 bg-greenblue">
-            <h2 className="text-center text-3xl px-4 text-white">Projects</h2>
-        <div className='columns-3 m-12'>
+            <h2 className="text-center text-2xl md:text-3xl px-4 text-white">Projects</h2>
+        <div className='grid md:grid-cols-2 lg:grid-cols-3 gap-12 m-12'>
             {projects.map(project => {
                 return(
                 <div key={project.title} className="max-w-sm overflow-hidden shadow-lg">
                     <img className="w-full" src={project.images[0]} alt="project image"/>
                     <div className="px-6 py-4 bg-white">
                         <div className='columns-2 flex flex-wrap justify-between'>
-                        <div className="font-bold text-xl mb-2 column-2 text-greenblue">{project.title}</div>
+                        <div className="font-bold text-lg md:text-xl mb-2 column-2 text-greenblue">{project.title}</div>
                         <a href={project.github} className="text-brown hover:text-greenblue">
                             <span className="sr-only">GitHub</span>
                             <svg className="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 24 24">
