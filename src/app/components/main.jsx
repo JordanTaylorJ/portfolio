@@ -3,7 +3,7 @@ const Main = () => {
     return(
         <main id='Home' className=" flex min-h-screen">
         <div className='m-5'>
-            <p className="mt-10 ml-9 p-6 text-6xl text-sage bg-brown inline-block">
+            <p className="mt-10 ml-9 p-6 text-4xl sm:text-6xl text-sage bg-brown inline-block">
             hi - jordan here!
             </p>
         </div>
