@@ -61,9 +61,9 @@ const Projects = () => {
         <div className='grid md:grid-cols-2 lg:grid-cols-3 gap-12 m-12'>
             {projects.map(project => {
                 return(
-                <div key={project.title} className="max-w-sm overflow-hidden shadow-lg">
+                <div key={project.title} className="max-w-sm overflow-hidden shadow-lg bg-white">
                     <img className="w-full" src={project.images[0]} alt="project image"/>
-                    <div className="px-6 py-4 bg-white">
+                    <div className="px-6 py-4">
                         <div className='columns-2 flex flex-wrap justify-between'>
                         <div className="font-bold text-lg md:text-xl mb-2 column-2 text-greenblue">{project.title}</div>
                         <a href={project.github} className="text-brown hover:text-greenblue">
