@@ -35,7 +35,7 @@ const Projects = () => {
             title: 'Portfolio',
             description: 'Personal website to showcase projects.',
             features: [
-                'Single-page application with JS React frontend deployed through Vercel',
+                'Single-page application with JS React deployed through Vercel',
                 'Created with Next.js, applied App Router and layouts',
                 'Styled using Tailwind CSS framework',
                 'Mobile-first responsive design'
@@ -57,7 +57,7 @@ const Projects = () => {
 
     return(
         <div id='Portfolio' className='pt-3'>
-        <div className="m-6 md:m-16 md:mt-24 p-6 bg-greenblue">
+        <div className="m-6 md:m-16 md:mt-20 p-6 bg-greenblue">
             <h2 className="text-center text-2xl md:text-3xl px-4 text-white">Projects</h2>
         <div className='grid md:grid-cols-2 lg:grid-cols-3 gap-12 m-6 md:m-12'>
             {projects.map(project => {
