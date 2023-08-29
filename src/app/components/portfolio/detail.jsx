@@ -6,7 +6,7 @@ const Detail = ({isVisible, onClose, thisProject}) => {
     return(
         <div onClick={() => onClose()} className=" fixed inset-0 bg-sage bg-opacity-50 backdrop-blur-sm flex justify-center items-center z-50">
         <div className="p-10 w-3/5 shadow-lg bg-white">
-            <h2 className='text-4xl text-center pb-2 text-greenblue font-bold' >{thisProject.title}</h2>
+            <h2 className='text-2xl md:text-4xl text-center pb-2 text-greenblue font-bold' >{thisProject.title}</h2>
             <p className='text-brown text-center text-sm md:text-base pb-8'>{thisProject.description}</p>
             <div className='grid grid-cols-3 gap-10'>
                 <img className="hidden md:block md:w-auto justify-self-center md:col-span-3 lg:col-span-1 " src={thisProject.images[0]} alt="project image"/>

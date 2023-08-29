@@ -2,7 +2,7 @@
 export default function About() {
     return(
     <>
-    <div id='About' className="grid min-h-screen p-6 md:p-24 gap-12 lg:gap-24 md:grid-cols-3 items-center" >
+    <div id='About' className="grid min-h-screen md:mt-20 p-6 md:p-24 gap-12 lg:gap-24 md:grid-cols-3 items-center" >
         <img className='object-contain w-40 sm:w-52 md:w-80 justify-self-center' src='/portrait.jpeg' alt='portrait' />
         <div className='md:col-span-2 bg-sage px-10 py-16 self-center' >
             <h1 className='text-2xl md:text-4xl pb-10 text-brown' >hey there, nice to meet you <br></br> - i'm jordan.</h1>
