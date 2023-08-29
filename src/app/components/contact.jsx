@@ -4,7 +4,7 @@ const Contact = () => {
             <div className='md:col-span-2 bg-greenblue px-10 py-14 self-center' >
                 <h1 className='text-2xl md:text-3xl pb-8 text-white pl-5' >Let's Work Together!</h1>
                 <p className='text-center text-sm md:text-base'>
-                I'm in search of a full-stack, frontend, or backend programming opportunity. I'm open to collaborative projects and excited to hear from you!
+                I'm in search of a full-stack, frontend, or backend programming opportunity. I'm open to collaborative or freelance projects. Excited to hear from you!
                 </p>
                 <br></br>
                 <div className='flex flex-col text-lg'>
