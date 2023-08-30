@@ -1,7 +1,7 @@
 const Skills = () => {
 
     const list = [
-        'JavaScript', 'React', 'Rails', 'Ruby on Rails', 'Python', 'CSS', 'HTML', 'Tailwind CSS', 'Material UI', 'Next.js','JSON', 'SQL', 'PostgreSQL', 'Postman', 
+        'JavaScript', 'React', 'Ruby', 'Ruby on Rails', 'Python', 'CSS', 'HTML', 'Tailwind CSS', 'Material UI', 'Next.js','JSON', 'SQL', 'PostgreSQL', 'Postman', 
         'REST API', 'MVC Architecture', 'Wireframes', 'Excel', 'Visio', 'Tableau', 
     ]
 
