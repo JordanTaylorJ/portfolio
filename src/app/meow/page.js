@@ -1,7 +1,7 @@
 const Meow = () => {
     return(
-        <main className='bg-fixed bg-center min-h-screen' style={{backgroundImage: "url(/swirls.jpg)"}}>
-            <img className='p-40 object-scale-down w-3/5' src='./sleepy_luc.jpeg' alt='cuteKitty' />
+        <main >
+            <img className='md:p-24 p-14 object-scale-down w-4/5 md:w-3/5' src='./sleepy_luc.jpeg' alt='cuteKitty' />
         </main>
     )
 }
