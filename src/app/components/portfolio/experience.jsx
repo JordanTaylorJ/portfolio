@@ -6,6 +6,11 @@ const Experience = () => {
         <table className="table-auto border-separate border-spacing-x-8 border-spacing-y-5">
         <tbody className='text-xs md:text-base'>
             <tr className="border-b">
+                <td>Business Accountant - Carson Group Tax & Accounting</td>
+                <td className='collapse sm:visible text-right md:text-sm'>03/2024 - current</td>
+                <td className='collapse md:visible text-right'>Colorado Springs, CO</td>
+            </tr>
+            <tr className="border-b">
                 <td>Student - Flatiron School</td>
                 <td className='collapse sm:visible text-right md:text-sm'>03/2023</td>
                 <td className='collapse md:visible text-right'>Colorado Springs, CO</td>
@@ -17,7 +22,7 @@ const Experience = () => {
             </tr>
             <tr className="border-b">
                 <td>Income Auditor - The Broadmoor</td>
-                <td className='collapse sm:visible text-right md:block'>10/2020 - 02/2021</td>
+                <td className='collapse sm:visible text-right md:text-sm'>10/2020 - 02/2021</td>
                 <td className='collapse md:visible text-right'>Colorado Springs, CO</td>
             </tr>
             <tr className="border-b">
@@ -32,7 +37,7 @@ const Experience = () => {
             </tr>
             <tr>
                 <td>Student - Colorado State University</td>
-                <td className='collapse sm:visible text-right md:text-sm'>05/2015</td>
+                <td className='collapse sm:visible text-right md:text-sm'>05/2019</td>
                 <td className='collapse md:visible text-right'>Pueblo, CO</td>
             </tr>
         </tbody>
