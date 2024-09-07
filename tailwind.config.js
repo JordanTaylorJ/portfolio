@@ -9,8 +9,10 @@ module.exports = {
   theme: {
     colors: {
       'brown': '#433e0e',
-      'greenblue': '#7c9082',
+      'greenblue': '#abb5aa',
       'sage': '#a7a284',
+      'babyblue' : '#a2b8a7',
+      'oldgreenblue': '#7c9082',
     },
     extend: {
       backgroundImage: {

@@ -15,16 +15,16 @@ const Navbar = () => {
     }
 
     return(
-        <nav className='flex flex-wrap justify-end p-4 text-lg container fixed z-40'>
+        <nav className='flex flex-wrap justify-center p-2 text-lg container fixed z-40 bg-white bg-opacity-50'>
         
             
-            <div className='hidden w-full md:block md:w-auto space-x-10' >
+            <div className='hidden w-full md:block md:w-auto space-x-20' >
                 <button className='hover:text-sage' value='Home' onClick={(e) => handleClickScroll(e)} >Home</button>
                 <button className='hover:text-sage' value='About' onClick={(e) => handleClickScroll(e)}>About</button>
+                <button className='hover:text-sage' value='Skills' onClick={(e) => handleClickScroll(e)}>Expertise</button>
                 <button className='hover:text-sage' value='Portfolio' onClick={(e) => handleClickScroll(e)}>Portfolio</button>
-                <a href='./resume_jordanjoseph.pdf' download='resume_jordanjoseph'>
-                    <button className='hover:text-sage'>Resume</button>
-                </a>
+                <button className='hover:text-sage' value='Experience' onClick={(e) => handleClickScroll(e)}>Experience</button>
+                <button className='hover:text-sage' value='Contact' onClick={(e) => handleClickScroll(e)}>Contact</button>
             </div>
         
             <div className=''>
