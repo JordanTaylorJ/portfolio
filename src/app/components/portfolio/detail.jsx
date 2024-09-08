@@ -14,7 +14,7 @@ const Detail = ({isVisible, onClose, thisProject}) => {
                 {thisProject.features.map(feature => {
                     return(
                         <ul key={feature} className="text-brown text-xs md:text-sm lg:text-base list-outside list-disc">
-                        <li>{feature}</li>
+                        <li className="list-image-[url('/star.png')]">{feature}</li>
                         </ul>
                     )
                 })}

@@ -15,10 +15,8 @@ const Navbar = () => {
     }
 
     return(
-        <nav className='flex flex-wrap justify-center p-2 text-lg container fixed z-40 bg-white bg-opacity-50'>
-        
-            
-            <div className='hidden w-full md:block md:w-auto space-x-20' >
+        <nav className='flex flex-wrap justify-center p-2 text-lg container fixed z-40 md:bg-white md:bg-opacity-50'>
+            <div className='hidden w-full md:block md:w-auto space-x-20'>
                 <button className='hover:text-sage' value='Home' onClick={(e) => handleClickScroll(e)} >Home</button>
                 <button className='hover:text-sage' value='About' onClick={(e) => handleClickScroll(e)}>About</button>
                 <button className='hover:text-sage' value='Skills' onClick={(e) => handleClickScroll(e)}>Expertise</button>
@@ -26,7 +24,6 @@ const Navbar = () => {
                 <button className='hover:text-sage' value='Experience' onClick={(e) => handleClickScroll(e)}>Experience</button>
                 <button className='hover:text-sage' value='Contact' onClick={(e) => handleClickScroll(e)}>Contact</button>
             </div>
-        
             <div className=''>
             <button onClick={() => setIsOpen(!isOpen)} type="button" className="block justify-right p-2 w-10 h-10 hover:text-sage md:hidden">
                 <svg className="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">

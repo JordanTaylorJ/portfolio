@@ -95,5 +95,3 @@ const Projects = () => {
 }
 
 export default Projects; 
-
-//<h2 className="text-center text-2xl md:text-3xl px-4 text-white">Recent Work</h2>
