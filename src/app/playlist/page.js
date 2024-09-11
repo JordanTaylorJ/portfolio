@@ -1,7 +1,7 @@
 const Playlist = () => {
     return(
         <main>
-            <div className=' m-16 p-20 bg-greenblue h-auto shadow-lg'>
+            <div className=' m-6 lg:m-16 p-6 lg:p-20 bg-greenblue h-auto shadow-lg'>
                 <iframe 
                     className='w-full h-96 shadow-lg'
                     thumbnails="true&disableAnalytics=true" 
