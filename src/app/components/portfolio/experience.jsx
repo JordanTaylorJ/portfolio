@@ -5,7 +5,7 @@ const Experience = () => {
             location: "Colorado Springs, CO"
         },
         {
-            name:"Flatiron School",
+            name:"Student - Flatiron School",
             time:"03/2023",
             location:"Colorado Springs, CO",
         },
