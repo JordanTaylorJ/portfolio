@@ -25,7 +25,7 @@ const Navbar = () => {
                 <button className='hover:text-sage' value='Contact' onClick={(e) => handleClickScroll(e)}>Contact</button>
             </div>
             <div className=''>
-            <button onClick={() => setIsOpen(!isOpen)} type="button" className=" p-2 w-10 h-10 text-white hover:text-sage md:hidden">
+            <button onClick={() => setIsOpen(!isOpen)} type="button" className=" p-2 w-10 h-10 text-brown hover:text-sage md:hidden">
                 <svg className="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
                     <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M1 1h15M1 7h15M1 13h15"/>
                 </svg>
