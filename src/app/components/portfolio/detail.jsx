@@ -4,7 +4,7 @@ const Detail = ({isVisible, onClose, thisProject}) => {
 
     
     return(
-        <div onClick={() => onClose()} className=" fixed inset-0 bg-sage bg-opacity-50 backdrop-blur-sm flex justify-center items-center z-50">
+        <div onClick={() => onClose()} className=" fixed inset-0 bg-black bg-opacity-50 backdrop-blur-sm flex justify-center items-center z-50">
         <div className="p-10 w-3/5 shadow-lg bg-white">
             <h2 className='text-2xl md:text-4xl text-center pb-2 text-greenblue font-bold' >{thisProject.title}</h2>
             <p className='text-brown text-center text-sm md:text-base pb-8'>{thisProject.description}</p>
@@ -14,7 +14,7 @@ const Detail = ({isVisible, onClose, thisProject}) => {
                 {thisProject.features.map(feature => {
                     return(
                         <ul key={feature} className="text-brown text-xs md:text-sm lg:text-base list-outside list-disc">
-                        <li>{feature}</li>
+                            <li className="list-image-[url('/star.png')]">{feature}</li>
                         </ul>
                     )
                 })}
