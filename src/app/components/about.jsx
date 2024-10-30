@@ -6,7 +6,7 @@ export default function About() {
             <h1 className='text-2xl md:text-4xl pb-10 text-brown font-semibold' >MEET JORDAN</h1>
             <br></br>
             <p className='text-sm md:text-base'>
-            The constant development required as a software engineer suits my aptitude for learning. Alongside my techincal skills, I bring a unique blend of experiences, including a background in accounting, a fixed-wing private pilot license, musical knowledge, and an eye for design. I’m the multitool you want in your back pocket.
+            The constant development required as a software engineer suits my aptitude for learning. Alongside my techincal skills, I bring a unique blend of experiences including a background in accounting, a fixed-wing private pilot license, musical knowledge, and an eye for design. I’m the multitool you want in your back pocket.
             </p>
             <br></br>
             <a href='./resume_jordanjoseph.pdf' download='resume_jordanjoseph'>
