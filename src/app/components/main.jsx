@@ -4,7 +4,7 @@ const Main = () => {
         <main id='Home' className="min-h-screen">
         <div className=''>
             <p className="mt-16 ml-9 p-6 text-4xl sm:text-6xl text-sage bg-brown inline-block">
-            hi - jordan here!
+            Hi - Jordan here!
             </p>
         </div>
         <div className="mt-10 ">
