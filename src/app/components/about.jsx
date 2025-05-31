@@ -29,7 +29,6 @@ const styles = {
     visible: {
         background: 'white',
         transition: 'background 1s ease-in-out',
-        
     },
     notVisible:{
         background: 'url(/bg.jpg) no-repeat center center'
