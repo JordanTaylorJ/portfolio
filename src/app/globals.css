@@ -17,3 +17,9 @@ body:before {
     -o-background-size: cover;
     background-size: cover;
   }
+
+  .nanum-myeongjo-regular {
+  font-family: "Nanum Myeongjo", 'serif';
+  font-weight: 400;
+  font-style: normal;
+}

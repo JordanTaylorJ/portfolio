@@ -1,5 +1,5 @@
 import Main from "./components/main";
-import About from "./components/about";
+import About from "./about/page";
 import Portfolio from "./components/portfolio/portfolio";
 import Contact from "./components/contact";
 import Footer from "./components/footer";
@@ -13,7 +13,6 @@ export default function Home() {
     <Navbar/>
     <Main/>
     <About/>
-    
     <Contact/>
     <Footer/>
     </div>

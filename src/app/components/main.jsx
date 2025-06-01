@@ -12,10 +12,10 @@ const Main = () => {
 
     return(
         <div>
-        <main id='Home' className="min-h-screen">
+        <main id='Home' className="min-h-screen font-nanum-myeongjo-regular">
         <div className=''>
             <p className="mt-16 ml-9 p-6 text-4xl sm:text-6xl text-sage inline-block text-shadow-lg">
-            Hi - Jordan here!
+            Welcome
             </p>
             <div className="m-6">
             <label className="flex items-center justify-between bg-sage cursor-pointer relative w-64 h-10 rounded-full border-2 border-solid border-gray-300">
@@ -28,7 +28,7 @@ const Main = () => {
             </div>
         </div>
         <div className="mt-10 ">
-            <img className='md:absolute top-60 left-40 object-scale-down w-4/5 md:w-3/5'  src='/blkwhi.jpg' alt="walking outside"/>
+            <img className='md:absolute top-66 left-40 object-scale-down w-4/5 md:w-3/5'  src='/blkwhi.jpg' alt="walking outside"/>
         </div> 
  
         </main>
