@@ -20,9 +20,7 @@ const Navbar = () => {
             <div className='flex flex-nowrap justify-center invisible md:visible min-w-screen space-x-10 md:space-x-16 lg:space-x-20'>
                 <button className='hover:text-sage' value='Home' onClick={(e) => handleClickScroll(e)} >Home</button>
                 <Link href="/about">About</Link>
-                <button className='hover:text-sage' value='Skills' onClick={(e) => handleClickScroll(e)}>Expertise</button>
-                <button className='hover:text-sage' value='Portfolio' onClick={(e) => handleClickScroll(e)}>Portfolio</button>
-                <button className='hover:text-sage' value='Experience' onClick={(e) => handleClickScroll(e)}>Experience</button>
+               
                 <button className='hover:text-sage' value='Contact' onClick={(e) => handleClickScroll(e)}>Contact</button>
             </div>
             <div className=''>
@@ -42,3 +40,10 @@ export default Navbar;
 
 //className="max-w-screen-xl flex flex-wrap justify-between mx-auto p-4 text-lg columns-2"
 //flex flex-nowrap justify-center
+
+/*
+ <button className='hover:text-sage' value='Skills' onClick={(e) => handleClickScroll(e)}>Expertise</button>
+                <button className='hover:text-sage' value='Portfolio' onClick={(e) => handleClickScroll(e)}>Portfolio</button>
+                <button className='hover:text-sage' value='Experience' onClick={(e) => handleClickScroll(e)}>Experience</button>
+*/
+
