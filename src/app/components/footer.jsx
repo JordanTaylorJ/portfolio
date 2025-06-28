@@ -1,6 +1,6 @@
 const Footer = () => {
     return(
-        <>
+        <main>
          <div className='flex justify-end bg-brown'>
             <img className='object-scale-down w-28 sm:w-44 md:w-60' src='./mountain.jpeg' alt='hikingVista'/>
             <img className='object-scale-down w-28 sm:w-44 md:w-60 grayscale' src='./plane.jpeg' alt='airplane'/>
@@ -31,7 +31,7 @@ const Footer = () => {
         <p className="mt-8 text-base leading-6 text-right p-2 text-brown">
             © 2024 Jordan Joseph
         </p>
-    </>
+    </main>
     )
 }
 
