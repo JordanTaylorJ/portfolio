@@ -8,6 +8,7 @@ const Portfolio = () => {
         <main>
         <Projects/> 
         <Skills/>
+        <Experience/>
         </main>
     )
 }

@@ -8,7 +8,7 @@ const Main = ({handleToggle, isToggled}) => {
     return(
         <main id='Home'>
         <div className='absolute'>
-            <p className="mt-8 ml-9 p-6 text-4xl sm:text-6xl text-sage inline-block text-shadow-lg font-nanum-myeongjo-regular">
+            <p className="mt-16 ml-9 p-6 text-5xl  sm:text-6xl md:text-9xl tracking-wide text-sage inline-block text-shadow-lg font-nanum-myeongjo-regular">
             Welcome
             </p>
             <div className="m-4">

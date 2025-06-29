@@ -1,10 +1,6 @@
 'use client'
 import React, {useState} from 'react';
-import Main from './components/page';
-import About from "./about/page";
-import Contact from "./components/contact";
-import Footer from "./components/footer";
-import Navbar from "./components/navbar";
+import Main from './components/main';
 
 export default function Home() {
 
@@ -17,7 +13,6 @@ export default function Home() {
   return (
     <div className={`min-h-screen ${isToggled ? '' : 'engineerBackdrop'}`}>
     <Main handleToggle={handleToggle} isToggled={isToggled}/>
-
     </div>
   )
 }
