@@ -1,19 +1,18 @@
-import Main from "./components/main";
-import About from "./components/about";
-import Portfolio from "./components/portfolio/portfolio";
-import Contact from "./components/contact";
-import Footer from "./components/footer";
-import Navbar from "./components/navbar";
+'use client'
+import React, {useState} from 'react';
+import Main from './components/main';
 
 export default function Home() {
+
+  const [isToggled, setIsToggled] = useState(false);
+
+    const handleToggle = () => {
+        setIsToggled(!isToggled)
+    }
+
   return (
-    <div >
-    <Navbar/>
-    <Main/>
-    <About/>
-    <Portfolio/>
-    <Contact/>
-    <Footer/>
+    <div className={`min-h-screen ${isToggled ? '' : 'engineerBackdrop'}`}>
+    <Main handleToggle={handleToggle} isToggled={isToggled}/>
     </div>
   )
 }
