@@ -13,4 +13,3 @@ const MobileMenu = () => {
 
 export default MobileMenu;
 
-//className='bg-white bg-opacity-50 p-2 m-20 absolute justify-left '
