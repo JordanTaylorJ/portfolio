@@ -21,9 +21,9 @@ const Design = () => {
                     <img  src='/draw.png' alt="test"/>
                 </div>
                 <div className='col-span-2  p-16'>
-                    <header className='p-10 text-4xl text-center'>Title here </header>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    <header className='p-10 text-4xl text-center text-white'>Coming Soon</header>
+                    <p className='text-center'>
+                        
                     </p>
                 </div>
 
@@ -31,7 +31,7 @@ const Design = () => {
             <div ref={designRef} style={designIsVisible ? styles.visible : styles.notVisible} className='grid grid-cols-4 mt-40 px-60 py-16'>
                 <div className='items-center text-center p-0'>
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        
                     </p>
                 </div>
                 <div className='col-span-2'>
@@ -55,7 +55,7 @@ const Design = () => {
 
 const styles = {
     visible: {
-        background: '#CB997E',
+        background: '#C39A8A',
         transition: 'background 1s ease-in-out',
         stroke: '#5d624c',
         strokeWidth: '2',
@@ -88,6 +88,7 @@ export default Design;
 </div> 
 */
 
+'#CB997E'
 /*
 
 <svg width="121" height="336" viewBox="0 0 121 336" fill="none" xmlns="http://www.w3.org/2000/svg ">

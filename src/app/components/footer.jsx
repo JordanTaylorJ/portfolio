@@ -29,7 +29,7 @@ const Footer = () => {
             </a>
         </div>
         <p className="mt-8 text-base leading-6 text-right p-2 text-brown">
-            © 2024 Jordan Joseph
+            © 2025 Jordan Joseph
         </p>
     </main>
     )

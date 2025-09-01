@@ -2,7 +2,7 @@ const Experience = () => {
     const list = [{
             name: 'Business Accountant - Carson Group Tax & Accounting',
             time: '03/2024 - current',
-            location: "Colorado Springs, CO"
+            location: "Colorado Springs, CO (remote)"
         },
         {
             name:"Student - Flatiron School",
